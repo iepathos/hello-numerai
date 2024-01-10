@@ -1,6 +1,6 @@
 # hello-numerai
 
-Is an organized repository for the numer.ai Hellow tutorial.  This is an alternative to the notebook numer.ai provides which isn't 100% working.  This repo uses Poetry for dependency management, works on Ubuntu and Macos, and will train and output the first predictions to Numer.ai.
+An organized repository for the numer.ai Hello tutorial.  This is an alternative to the notebook numer.ai provides which isn't 100% working.  This repo uses Poetry for dependency management, works on Ubuntu and Macos, and will train and output the first predictions to Numer.ai.
 
 
 Usage:
