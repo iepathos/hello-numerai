@@ -8,5 +8,5 @@ if [ "$arch" = "Darwin" ]; then
 fi
 
 
-poetry env use 3.12.1
+poetry env use 3.10.13
 poetry install
