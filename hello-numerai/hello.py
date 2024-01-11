@@ -188,6 +188,12 @@ def predict(live_features: pd.DataFrame) -> pd.DataFrame:
 
 # Use the cloudpickle library to serialize your function
 import cloudpickle
+
+import os
+predict_output_file = "predict.pkl"
+if os.path.exists(predict_output_file):
+  os.remove(predict_output_file)
+
 p = cloudpickle.dumps(predict)
-with open("predict.pkl", "wb") as f:
+with open(predict_output_file, "wb") as f:
     f.write(p)
