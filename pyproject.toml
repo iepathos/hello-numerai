@@ -17,6 +17,7 @@ cloudpickle = "2.2.1"
 scipy = "^1.11.4"
 setuptools = "^69.0.3"
 numerai-tools = "^0.0.17"
+seaborn = "^0.13.1"
 
 
 [build-system]
