@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hello-numerai"
+version = "0.1.0"
+description = "Numer.ai Hello Tutorial"
+authors = ["Glen Baker <iepathos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numerapi = "^2.16.3"
+pandas = "2.1.3"
+pyarrow = "^14.0.2"
+matplotlib = "^3.8.2"
+lightgbm = "^4.2.0"
+scikit-learn = "^1.3.2"
+cloudpickle = "^3.0.0"
+scipy = "^1.11.4"
+setuptools = "^69.0.3"
+numerai-tools = "^0.0.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
