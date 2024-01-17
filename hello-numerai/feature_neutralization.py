@@ -7,7 +7,7 @@ from numerapi import NumerAPI
 napi = NumerAPI()
 
 # Set data version to one of the latest datasets
-DATA_VERSION = "v4.2"
+DATA_VERSION = "v4.3"
 
 napi.download_dataset(f"{DATA_VERSION}/features.json");
 feature_metadata = json.load(open(f"{DATA_VERSION}/features.json"))

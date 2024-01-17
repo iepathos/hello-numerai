@@ -7,7 +7,7 @@ import json
 from numerapi import NumerAPI
 
 # Set the data version to one of the most recent versions
-DATA_VERSION = "v4.2"
+DATA_VERSION = "v4.3"
 
 # Download data
 napi = NumerAPI()

@@ -3,7 +3,7 @@
 
 
 # Set data version to one of the latest datasets
-DATA_VERSION = "v4.2"
+DATA_VERSION = "v4.3"
 
 # Initialize NumerAPI - the official Python API client for Numerai
 from numerapi import NumerAPI
